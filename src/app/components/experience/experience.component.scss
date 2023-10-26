@@ -1,0 +1,107 @@
+.container-experience {
+  background-color: white;
+  color: #023047;
+  padding-top: 50px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+.hr1 {
+  width: 40%;
+  color: #023047;
+}
+
+.container-experience h1 {
+  font-size: 50px;
+  color: #023047;
+}
+
+.container-experience h3 {
+  font-weight: bold;
+}
+
+.container-education {
+  background-color: #023047;
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.container-education h1 {
+  font-size: 50px;
+  color: #fdb703;
+}
+
+.container-education h2 {
+  color: #fdb703;
+}
+.container-education h3 {
+  font-weight: bold;
+}
+
+.hr2 {
+  width: 40%;
+  color: #fdb703;
+}
+
+a {
+  color: #fdb703;
+  text-decoration: none;
+}
+a:link {
+  color: #fdb703;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #fdb703;
+}
+
+.hr-block {
+  color: #fdb703;
+}
+
+b {
+  color: #fdb703;
+}
+
+.title {
+  display: flex;
+}
+
+.title .material-symbols-outlined {
+  font-size: 39px;
+  color: #fdb703;
+  margin-left: 10px;
+}
+
+.title .work {
+  font-size: 37px;
+  color: #023047;
+  margin-left: 10px;
+}
+
+//MOBILE
+
+@media (max-width: 480px) {
+  .container-experience h1 {
+    font-size: 50px;
+    color: #023047;
+    line-height: 1em;
+    margin: 0;
+  }
+  .hr1 {
+    width: 60%;
+  }
+  .hr2 {
+    width: 50%;
+  }
+  .title .work {
+    display: none;
+  }
+}

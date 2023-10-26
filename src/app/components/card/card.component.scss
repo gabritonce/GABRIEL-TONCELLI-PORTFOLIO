@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 50px;
+  border-radius: #023047 10px;
+  background-color: #023047;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-title {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.card-description {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.button-git:hover {
+  transform: scale(0.95);
+  transition: all 0.1s;
+}
+.button-details:hover {
+  transform: scale(0.95);
+  transition: all 0.1s;
+}
+
+.button-git {
+  text-align: center;
+  margin-right: 10px;
+}
+.button-details {
+  text-align: center;
+  margin-left: 10px;
+}
+.card a {
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card .code {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+.card-body .img-icona {
+  display: flex;
+  justify-content: center;
+}
+.card-body img {
+  width: 10%;
+  margin-top: 10px;
+}

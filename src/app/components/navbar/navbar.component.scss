@@ -1,0 +1,111 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #023047;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar .nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.navbar a:hover {
+  transform: scale(0.95);
+  transition: all 0.3s;
+  text-decoration: #ffb703 underline;
+}
+.navbar-collapse {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  transition: height 0.3s ease;
+}
+
+.navbar-collapse h1 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #ffb703;
+}
+hr {
+  padding: 0;
+  margin: 0;
+  color: #ffb703;
+}
+
+button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #023047;
+  background-color: #ffb703;
+
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button:hover {
+  background-color: #fbd983;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (max-width: 480px) {
+  .container-fluid {
+    padding: 0;
+  }
+  .navbar-toggler {
+    margin-left: 15px;
+  }
+  .navbar {
+    background-color: #023047;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+
+  .navbar .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+  }
+  .navbar-collapse h1 {
+    display: none;
+  }
+  hr {
+    padding: 0;
+    margin: 0;
+    color: #ffb703;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #023047;
+    background-color: #ffb703;
+    margin-left: 20px;
+
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  button:hover {
+    background-color: #fbd983;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #023047;
+    transition: height 0.3s ease;
+  }
+}

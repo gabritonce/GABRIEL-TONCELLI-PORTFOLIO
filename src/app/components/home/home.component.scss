@@ -1,0 +1,193 @@
+.home {
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
+}
+
+.about {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #023047;
+  color: #f0f0f0;
+}
+.about img {
+  width: 20%;
+  border-radius: 100%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.about h2 {
+  margin-top: 20px;
+  font-size: 80px;
+  color: #ffb703;
+  text-align: center;
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+  padding-top: 30px;
+  line-height: 1.5em;
+}
+.prompt svg {
+  margin: 20px;
+  color: #ffb703;
+  text-align: center;
+}
+.prompt svg:hover {
+  transform: translateY(-3px);
+}
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills h1 {
+  color: #3e497a;
+  font-size: 70px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.skills h2 {
+  margin-top: 40px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.container-skills {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.box-skills {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.box-skills p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.box-skills img:hover {
+  transform: scale(0.95);
+  transition: all 0.3s;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+  color: #ffb703;
+  border: 1px solid;
+}
+.hr-skills {
+  color: #023047;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid;
+}
+
+//MOBIlE
+
+@media (max-width: 480px) {
+  .about {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #023047;
+    color: #f0f0f0;
+  }
+  .about img {
+    width: 50%;
+    border-radius: 100%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .about h2 {
+    margin-top: 10px;
+    font-size: 80px;
+    color: #ffb703;
+    text-align: center;
+    line-height: 1em;
+  }
+  .about .prompt {
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 1.5em;
+    width: 100%;
+  }
+  .prompt svg {
+    margin: 12px;
+    color: #ffb703;
+    text-align: center;
+  }
+  .prompt svg:hover {
+    transform: translateY(-3px);
+  }
+
+  .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills h1 {
+    color: #3e497a;
+    font-size: 70px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .skills h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .container-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .box-skills {
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+  }
+
+  .box-skills p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .box-skills img:hover {
+    transform: scale(0.95);
+    transition: all 0.3s;
+  }
+}

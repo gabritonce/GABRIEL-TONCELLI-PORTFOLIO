@@ -1,0 +1,20 @@
+.container-projects {
+  margin-left: 135px;
+}
+
+h1 {
+  margin-top: 180px;
+  color: #023047;
+  font-size: 70px;
+}
+
+//MOBILE
+
+@media (max-width: 480px) {
+  .container-projects {
+    margin-left: 0;
+  }
+  h1 {
+    text-align: center;
+  }
+}

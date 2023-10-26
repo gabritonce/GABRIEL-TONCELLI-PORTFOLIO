@@ -1,0 +1,38 @@
+.container-about {
+  background-color: #023047;
+  color: white;
+  padding-top: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 172px;
+}
+
+.container-about h1 {
+  font-size: 50px;
+  color: #fdb703;
+}
+
+.container-about h2 {
+  font-size: 18px;
+  padding-top: 20px;
+
+  line-height: 2.2rem;
+}
+.hr1 {
+  width: 20%;
+  color: #fdb703;
+}
+
+.hr2 {
+  color: #fdb703;
+  width: 90%;
+}
+
+@media (max-width: 480px) {
+  .container-about {
+    padding-bottom: 80px;
+  }
+  .hr1 {
+    width: 50%;
+  }
+}
